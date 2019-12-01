@@ -1,6 +1,7 @@
-﻿#include <iostream>
+#include "ZPR.h"
 
-int main()
+ZPR::ZPR(QWidget *parent)
+	: QMainWindow(parent)
 {
-    std::cout << "Hello World!\n";
+	ui.setupUi(this);
 }
