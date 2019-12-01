@@ -1,10 +1,10 @@
-#define BOOST_TEST_MODULE MyTest
+#define BOOST_TEST_MODULE mytests
 #include <boost/test/unit_test.hpp>
+#include "toTest.h"
 
-using namespace boost::unit_test;
-
-BOOST_AUTO_TEST_CASE(SimpleTestTools)
+BOOST_AUTO_TEST_CASE(myTestCase)
 {
-	BOOST_CHECK(2 + 2 == 4);
-	BOOST_REQUIRE(true);
+	toTest x;
+  BOOST_TEST(x.a==2);
+  BOOST_TEST(true);
 }

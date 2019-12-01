@@ -70,7 +70,7 @@
       <AdditionalIncludeDirectories>C:\Users\Jakub\Desktop\studia\ZPR\boost_1_71_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\Users\Jakub\Desktop\studia\ZPR\boost_1_71_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -91,8 +91,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="ZPR.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="ZPR.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="ZPR.h" />
@@ -102,6 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="ZPR.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="toTest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
