@@ -1,10 +1,18 @@
-#define BOOST_TEST_MODULE mytests
 #include <boost/test/unit_test.hpp>
-#include "toTest.h"
 
-BOOST_AUTO_TEST_CASE(myTestCase)
+
+bool init_unit_test()
 {
-	toTest x;
-  BOOST_TEST(x.a==2);
-  BOOST_TEST(true);
+	std::cout << "using custom init" << std::endl;
+	return true;
+}
+
+BOOST_AUTO_TEST_CASE(test1)
+{
+	BOOST_TEST(true);
+}
+
+BOOST_AUTO_TEST_CASE(test2)
+{
+  BOOST_TEST(1 == 1);
 }
