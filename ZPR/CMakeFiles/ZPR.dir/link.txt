@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/ZPR.dir/main.cpp.o CMakeFiles/ZPR.dir/Test.cpp.o CMakeFiles/ZPR.dir/ZPR.cpp.o CMakeFiles/ZPR.dir/ZPR_autogen/mocs_compilation.cpp.o CMakeFiles/ZPR.dir/ZPR_autogen/EWIEGA46WW/qrc_ZPR.cpp.o  -o ZPR /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5 

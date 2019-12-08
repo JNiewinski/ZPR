@@ -1,4 +1,5 @@
 #include <boost/test/unit_test.hpp>
+#include<iostream>
 
 
 bool init_unit_test()
