@@ -1,0 +1,3 @@
+C:/Users/Jakub/Desktop/studia/ZPR/ZPR/ZPR/CMakeFiles/ZPR.dir
+C:/Users/Jakub/Desktop/studia/ZPR/ZPR/ZPR/CMakeFiles/ALL_BUILD.dir
+C:/Users/Jakub/Desktop/studia/ZPR/ZPR/ZPR/CMakeFiles/ZERO_CHECK.dir
